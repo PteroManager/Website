@@ -1,4 +1,4 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp } from "vue";
+import PteroManagerWebsite from "./PteroManagerWebsite.vue";
 
-createApp(App).mount('#app')
+createApp(PteroManagerWebsite).mount("#app");
