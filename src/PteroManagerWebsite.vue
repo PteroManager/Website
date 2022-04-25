@@ -13,5 +13,5 @@ import Footer from "./components/Footer.vue";
 </template>
 
 <style>
-  @import "./assets/Styles.css";
+@import "./assets/Styles.css";
 </style>

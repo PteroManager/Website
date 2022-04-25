@@ -3,7 +3,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
 
 html {
-  background: linear-gradient(45deg, rgba(255,160,25,1) 0%, rgba(255,42,42,1) 100%);
+  background: linear-gradient(
+    45deg,
+    rgba(255, 160, 25, 1) 0%,
+    rgba(255, 42, 42, 1) 100%
+  );
   background-repeat: no-repeat;
   scroll-behavior: smooth;
   margin: 0;
@@ -12,13 +16,13 @@ html {
 h1 {
   text-align: center;
   font-family: "Work Sans", sans-serif;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 h3 {
   text-align: center;
   font-family: "Work Sans", sans-serif;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 a {
@@ -29,9 +33,9 @@ a {
 
 button {
   margin: 5px;
-  border: 2px solid #FFFFFF;
-  color: #FFFFFF;
-  background-color: rgba(255,160,25,1);
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  background-color: rgba(255, 160, 25, 1);
   width: 200px;
   height: 50px;
   font-family: "Work Sans", sans-serif;
@@ -40,7 +44,7 @@ button {
 }
 
 button:hover {
-  background-color: rgba(255,42,42,1);
+  background-color: rgba(255, 42, 42, 1);
   width: 210px;
   transition: 0.5s;
 }
