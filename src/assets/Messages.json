@@ -1,3 +1,4 @@
 {
+  "Name": "PteroManager",
   "Description": "The free NodeJS Pterodactyl API wrapper!"
 }
