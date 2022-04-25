@@ -1,8 +1,9 @@
 <script lang="ts">
-import { Description } from "../assets/Messages.json";
+import { Name, Description } from "../assets/Messages.json";
 export default {
   data() {
     return {
+      name: Name,
       description: Description,
     };
   },
@@ -10,7 +11,7 @@ export default {
 </script>
 
 <template>
-  <h1>PteroManager</h1>
+  <h1>{{ name }}</h1>
   <h3>{{ description }}</h3>
   <div id="buttons"><button>NPM</button><button>Documentation</button></div>
 </template>
