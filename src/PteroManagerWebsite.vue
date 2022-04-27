@@ -5,7 +5,6 @@ import Footer from "./components/Footer.vue";
 </script>
 
 <template>
-<h1>Hello World!</h1>
   <div id="PteroManager">
     <Navbar />
     <Container />
