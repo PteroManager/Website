@@ -3,21 +3,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
 
 html {
-  background-color: #121212;
+  background-color: #2a2f3e;
   scroll-behavior: smooth;
   margin: 0;
 }
 
 h1 {
   text-align: center;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #ffffff;
+  text-transform: uppercase;
 }
 
 h3 {
   text-align: center;
   font-family: "Work Sans", sans-serif;
   color: #ffffff;
+  text-transform: uppercase;
 }
 
 a {
@@ -28,18 +30,19 @@ a {
 
 button {
   margin: 5px;
-  border: 1px solid #1d724c;
+  border: 1px solid aquamarine;
   color: #ffffff;
   background-color: transparent;
   width: 200px;
   height: 50px;
   font-family: "Work Sans", sans-serif;
   border-radius: 5px;
+  text-transform: uppercase;
   transition: 0.2s;
 }
 
 button:hover {
-  background-color: #1d724c;
+  background-color: aquamarine;
   width: 210px;
   transition: 0.2s;
 }
