@@ -38,6 +38,7 @@ button {
   border-radius: 5px;
   text-transform: uppercase;
   transition: 0.2s;
+  cursor: pointer;
 }
 
 button:hover {
