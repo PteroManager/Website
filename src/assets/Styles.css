@@ -65,6 +65,7 @@ li {
 
 li a {
   display: block;
+  text-align: center;
   padding: 12px 14px;
   text-decoration: none;
   border: none;
