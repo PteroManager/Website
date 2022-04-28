@@ -10,14 +10,13 @@ html {
 
 h1 {
   text-align: center;
-  font-family: "Poppins", sans-serif;
+  font-family: "ABeeZee", sans-serif;
   color: #ffffff;
-  text-transform: uppercase;
 }
 
 h3 {
   text-align: center;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #ffffff;
 }
 
@@ -44,6 +43,7 @@ button {
 button:hover {
   background-color: aquamarine;
   width: 210px;
+  color: #1a1c27;
   transition: 0.2s;
 }
 
