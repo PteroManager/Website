@@ -19,6 +19,8 @@ jobs:
         run: npm i
       - name: Build
         run: npm run build
+      - name: Create CNAME file
+        run: echo "pteromanager.js.org" > dist/CNAME
       - name: Dist folder
         uses: actions/upload-artifact@v3
         with:
