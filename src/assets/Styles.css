@@ -68,7 +68,7 @@ li a {
   text-align: center;
   padding: 12px 14px;
   text-decoration: none;
-  border: none;
+  border: 1px solid #1a1c27;
   transition: 0.2s;
 }
 
